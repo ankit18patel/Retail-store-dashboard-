@@ -7,11 +7,16 @@
 ## 📌 Project Overview
 This project focuses on cleaning raw retail store transaction data and building an interactive dashboard to uncover actionable business insights. The data was preprocessed and cleaned using Python (Pandas), and an executive-level dashboard was created using Power BI to visualize sales performance, customer behavior, and product trends.
 
+![Dashboard Preview](https://github.com/ankit18patel/Retail-store-dashboard-/blob/main/dashboard%20img.png) 
+
+
+
+
 ## 🛠️ Tools & Technologies
 *   **Data Cleaning & Preprocessing:** Python (Pandas)
 *   **Data Visualization & Dashboarding:** Power BI
-*   **Dataset:** `retail_store_sales_cleaned.csv`
-<br>
+*   **Dataset:** `https://github.com/ankit18patel/Retail-store-dashboard-/blob/main/retail_store_sales_cleaned.csv`
+
 
 ## 🔄 Data Pipeline & Cleaning (Pandas)
 The raw dataset underwent several cleaning steps in Pandas before being loaded into Power BI:
@@ -19,7 +24,7 @@ The raw dataset underwent several cleaning steps in Pandas before being loaded i
 2.  **Data Type Conversion:** Converted `Transaction Date` to datetime format and ensured numerical columns (`Price Per Unit`, `Quantity`, `Total Spent`) were formatted correctly.
 3.  **Feature Engineering:** Created new derived columns (e.g., Month, Quarter, Year) to support time-series analysis.
 4.  **Data Validation:** Removed duplicates and ensured that `Total Spent` = `Price Per Unit` * `Quantity` (accounting for discounts if applicable).
-5.  **Export:** Saved the cleaned dataset as `retail_store_sales_cleaned.csv`.
+5.  **Export:** Saved the cleaned dataset as `https://github.com/ankit18patel/Retail-store-dashboard-/blob/main/retail_store_sales_cleaned.csv`.
 
 ## 📊 Dashboard Features (Power BI)
 The interactive dashboard provides a comprehensive view of the retail store's performance:
